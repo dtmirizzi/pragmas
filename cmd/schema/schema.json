@@ -5,9 +5,9 @@
   "type": "object",
   "title": "The Root Schema",
   "required": [
-    "name",
-    "age"
-  ],
+  "name",
+  "age"
+],
   "properties": {
     "name": {
       "$id": "#/properties/name",

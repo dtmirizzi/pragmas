@@ -37,6 +37,7 @@ func rootSchema(w http.ResponseWriter, r *http.Request) {
 }
 
 func root(w http.ResponseWriter, r *http.Request) {
+
 	foo := schema.Foo{}
 	err := json.Unmarshal(b, &foo)
 	if err != nil {
@@ -46,6 +47,10 @@ func root(w http.ResponseWriter, r *http.Request) {
 	b, err := io.ReadAll(r.Body)
 	if err != nil {
 		log.Fatal("failed to read body")
+	}
+
+	if len(b) == 0 {
+		w.Write([]byte("this is not a valid payload "))
 	}
 	// ensure r has required fields
 	for _, f := range foo.Required {

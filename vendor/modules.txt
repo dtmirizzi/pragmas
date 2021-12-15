@@ -1,0 +1,20 @@
+# github.com/ChimeraCoder/gojson v1.1.0
+## explicit
+# github.com/golang/protobuf v1.5.2
+## explicit
+# github.com/gorilla/mux v1.8.0
+## explicit
+github.com/gorilla/mux
+# github.com/grpc-ecosystem/grpc-gateway v1.16.0
+## explicit
+# github.com/tidwall/gjson v1.12.1
+## explicit
+github.com/tidwall/gjson
+# github.com/tidwall/match v1.1.1
+github.com/tidwall/match
+# github.com/tidwall/pretty v1.2.0
+github.com/tidwall/pretty
+# google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
+## explicit
+# google.golang.org/grpc v1.42.0
+## explicit
